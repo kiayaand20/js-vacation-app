@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="./app.js"></script>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" 
+  rel="stylesheet">
+  <title>Vacation Destinations Wishlist</title>
+</head>
+<body>
+  <header>
+    <div id="header">
+    <p class="header-title">Vacation Destinations WishList</p>
+    <p class="header-sentence">Found exciting places to visit on your next vacation? 
+      Use the form below to add them to your wishlist</p>
+    </div>
+  </header>
+
+
+  <p class="destination-details">Enter Destination Details</p>
+
+  <div class="form">
+  <form name="vacationcardform">
+    <label>Destination Name</label>
+    <input
+    id="destination"
+    type="text"
+    placeholder="Enter the name of the Destination" 
+    name="destination"
+    required
+    >
+    <label>Location</label>
+    <input
+    id="location"
+    type="text"
+    placeholder="Where is it located?"
+    name="location"
+    required
+    >
+    <label>Photo</label>
+    <input
+    id="photo"
+    type="url"
+    placeholder="Enter an image url of the place"
+    name="photo"
+    >
+    <label>Description</label>
+    <input
+    id="description"
+    type="text"
+    placeholder="Where is it located?"
+    name="description"
+    >
+    <button id="button">Add to list</button>
+  </form>
+</div>
+
+<div id="wishlist-cards"></div>
+
+</body>
+</html>
